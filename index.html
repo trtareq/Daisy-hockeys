@@ -4,8 +4,214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey khelbo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <header class="mx-auto">
+        <div class="navbar bg-base-100 ">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="text-red-500">Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-4xl font-bold">Hockey<span class="text-red-500 font-bold">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-red-500">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-x-2">
+                <i class="fa fa-search"></i>
+              <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+            </div>
+          </div>
+    </header>
+    <main>
+       <div class="relative">
+        <div class="relative carousel w-{1344} 
+        max-h-96 mx-5">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="Images/3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+        </div>
+        <div class="card mx-5 lg:w-2/4 bg-neutral text-neutral-content lg:absolute lg:bottom-14 lg:px-3 lg:right-20">
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-white text-2xl">Meet all the heroes from the field</h2>
+              <p class="text-xs">Hockey is an outdoor game played between two teams of 11 players <br> who use long curved sticks to hit a small ball and try to score goals.In order to help make the distinction between these various games, the word hockey is often preceded by another word i.e. field hockey, ice hockey, roller hockey, rink hockey, or floor hockey.
+              </p>
+            </div>
+        </div>
+       </div>
+       <!-- Professional Hockeys Club -->
+       <div class="container mx-auto mt-5 text-center">
+        <hr>
+        <h2 class="font-extrabold text-4xl text-gray-700 file:mb-3">Professional Hockeys Club</h2>
+        <p class=" text-zinc-500 mb-3">Ice hockey (or simply hockey) is a team sport played on ice<br> skates, usually on an ice skating rink with lines and markings specific to the sport.</p>
+        <hr>
+      </div> 
+      <div class="container p-5 lg:flex lg:flex-1 mx-auto justify-between mb-5">
+        <div class="card w-96 ">
+          <div class="card-body">
+            <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+            <h2 class="card-title">Prayer Facility</h2>
+            <p>Ice hockey (or simply hockey) is a team sport played on ice</p>
+          </div>
+        </div>
+        <div class="card w-96 ">
+          <div class="card-body">
+            <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+            <h2 class="card-title">Experienced Coach</h2>
+            <p>Ice hockey (or simply hockey) is a team sport played on ice</p>
+          </div>
+        </div>
+        <div class="card w-96 ">
+          <div class="card-body">
+            <div class="radial-progress text-amber-500" style="--value:90;" role="progressbar">90%</div>
+            <h2 class="card-title">Senior Player</h2>
+            <p>Ice hockey (or simply hockey) is a team sport played on ice</p>
+          </div>
+        </div>
+        <div class="card w-96 ">
+          <div class="card-body">
+            <div class="radial-progress text-sky-600" style="--value:80;" role="progressbar">80%</div>
+            <h2 class="card-title">Training Ground</h2>
+            <p>Ice hockey (or simply hockey) is a team sport played on ice</p>
+          </div>
+        </div>
+      </div>
+       <!-- Program section -->
+      <div class="container mx-auto mt-5 text-center">
+        <hr>
+        <h2 class="font-extrabold text-4xl text-gray-700 file:mb-3">Program Sections</h2>
+        <p class=" text-zinc-500 mb-3">Ice hockey (or simply hockey) is a team sport played on ice<br> skates, usually on an ice skating rink with lines and markings specific to the sport.</p>
+        <hr>
+      </div>       
+      <div class="container mt-5 gap-5 mx-auto  lg:flex lg:flex-1">
+        <div class="card w-11/12 mb-5 mx-auto  bg-base-100  image-full">
+            <figure><img src="Images/4.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-start">
+                <button class="btn text-white bg-orange-600">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-11/12 mb-5 mx-auto bg-base-100  image-full">
+            <figure><img src="Images/4.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-start">
+                <button class="btn text-white bg-orange-600">Buy Now</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="card mx-auto w-11/12 bg-base-100 shadow-xl lg:h-64 image-full">
+        <figure><img src="Images/1.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Shoes!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-start">
+            <button class="btn text-white bg-orange-600">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Our New Products -->
+      <div class="container mx-auto mt-5 text-center">
+        <hr>
+        <h2 class="font-extrabold text-4xl text-gray-700 file:mb-3">Our New Products</h2>
+        <p class=" text-zinc-500 mb-3">Ice hockey (or simply hockey) is a team sport played on ice<br> skates, usually on an ice skating rink with lines and markings specific to the sport.</p>
+        <hr>
+      </div> 
+      <!-- Clients Question -->
+      <div class="container mx-auto mt-5 text-center">
+        <hr>
+        <h2 class="font-extrabold text-4xl text-gray-700 file:mb-3">Clients Question</h2>
+        <p class=" text-zinc-500 mb-3">Ice hockey (or simply hockey) is a team sport played on ice<br> skates, usually on an ice skating rink with lines and markings specific to the sport.</p>
+        <hr>
+      </div> 
+      <!-- Get In Touch -->
+      <div class="container mx-auto mt-5 text-center">
+        <hr>
+        <h2 class="font-extrabold text-4xl text-gray-700 file:mb-3">Get In Touch</h2>
+        <p class=" text-zinc-500 mb-3">Ice hockey (or simply hockey) is a team sport played on ice<br> skates, usually on an ice skating rink with lines and markings specific to the sport.</p>
+        <hr>
+      </div> 
+      <!-- Social Media -->
+      <footer class="footer footer-center p-4 bg-base-300 text-base-content text-2xl font-bold w-11/12 mx-auto">
+        <aside>
+          <p>Social Media</p>
+          <h1 class="space-x-3"><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-github"></i><i class="fa-brands fa-linkedin"></i></h1>
+        </aside>
+      </footer>
+    </main>
+    <footer class="footer footer-center lg:text-balance grid grid-rows-3 mt-10 p-10 lg:flex lg:gap-52 bg-black text-white">
+      <aside class="grid col-span-3">
+        <h1 class="text-3xl font-bold">Get In Touch</h1>
+        <p>Ice hockey (or simply hockey) is a team sport played on ice<br>
+        skates,  on an ice skating rink with lines and markings specific to the sport.</p>
+        <a class="link link-hover text-xl"><i class="fa-regular fa-envelope text-red-600 mr-2 text-xl"></i>hockeys@support.com</a>
+        <a class="link link-hover text-xl"><i class="fa-solid fa-square-phone  text-red-600 mr-2 text-xl"></i>(+62) 123-321-543</a>
+      </aside> 
+      <nav class="grid col-span-2 gap-x-2">
+        <h6 class="footer-title">Services</h6> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav class="grid ">
+        <h6 class="footer-title">Company</h6> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav class="grid col-span-3">
+        <h6 class="footer-title">Legal</h6> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
 </body>
 </html>
