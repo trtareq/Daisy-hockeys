@@ -7,3 +7,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+.card-img {
+        background-image: url(Images/2.png);
+        background-repeat: none;
+        background-size: cover;
+}
